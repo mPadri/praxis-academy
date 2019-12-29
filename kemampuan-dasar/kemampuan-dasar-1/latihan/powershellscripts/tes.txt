@@ -1,0 +1,5 @@
+choice /c yn /m "Yes or no"
+if %errorlevel% == 1 echo rubah
+if %errorlevel% == 2 echo tidak
+
+set /p namaFile="Tulis Nama File : "

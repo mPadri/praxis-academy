@@ -1,0 +1,330 @@
+1 rd
+hasil-> E:\Kampus>dir
+ Volume in drive E has no label.
+ Volume Serial Number is E20C-4028
+
+ Directory of E:\Kampus
+
+26/12/2019  21.35    <DIR>          .
+26/12/2019  21.35    <DIR>          ..
+30/11/2019  13.05    <DIR>          Metnum
+26/12/2019  21.35    <DIR>          myFolder
+21/09/2019  09.44    <DIR>          Platform-Kusus
+               0 File(s)              0 bytes
+               5 Dir(s)  121.241.960.448 bytes free
+
+E:\Kampus>rd myFolder
+
+E:\Kampus>dir
+ Volume in drive E has no label.
+ Volume Serial Number is E20C-4028
+
+ Directory of E:\Kampus
+
+26/12/2019  21.36    <DIR>          .
+26/12/2019  21.36    <DIR>          ..
+30/11/2019  13.05    <DIR>          Metnum
+21/09/2019  09.44    <DIR>          Platform-Kusus
+               0 File(s)              0 bytes
+               4 Dir(s)  121.241.960.448 bytes free
+
+2 mkdir
+hasil->  Directory: C:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       26/12/2019     19.08                Script
+
+cd
+hasil-> 
+PS C:\> cd .\Script\
+PS C:\Script>
+
+3 help
+hasil -> C:\Users\mPadri>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+4 dir
+hasil -> C:\Users\mPadri>dir
+ Volume in drive C has no label.
+ Volume Serial Number is A812-0DB3
+
+ Directory of C:\Users\mPadri
+
+23/12/2019  20.57    <DIR>          .
+23/12/2019  20.57    <DIR>          ..
+04/04/2019  19.01    <DIR>          .android
+28/02/2019  19.40    <DIR>          .AndroidStudio3.3
+23/12/2019  21.37             6.751 .bash_history
+07/05/2019  17.02    <DIR>          .config
+21/03/2019  20.25                16 .emulator_console_auth_token
+30/06/2019  18.38               150 .gitconfig
+28/02/2019  20.19    <DIR>          .gradle
+13/09/2019  17.58    <DIR>          .MemuHyperv
+16/10/2019  21.48    <DIR>          .pencil
+18/12/2019  19.29    <DIR>          .ssh
+03/04/2019  20.42    <DIR>          .VirtualBox
+12/05/2019  12.37    <DIR>          .vscode
+08/02/2019  10.02    <DIR>          .xdman
+18/08/2019  13.44    <DIR>          AndroidStudioProjects
+29/01/2019  20.08    <DIR>          Contacts
+
+5 Date
+hasil -> C:\Users\mPadri>date
+The current date is: 26/12/2019
+Enter the new date: (dd-mm-yy)
+
+6 defrag
+hasil -> C:\Users\mPadri>defrag
+Microsoft Drive Optimizer
+Copyright (c) 2013 Microsoft Corp.
+
+Description:
+
+        Optimizes and defragments files on local volumes to
+        improve system performance.
+
+Syntax:
+
+        defrag <volumes> | /C | /E <volumes> [<task(s)>] [/H] [/M [n] | [/U] [/V]] [/I n]
+
+        Where <task(s)> is omitted (traditional defrag), or as follows:
+                /A | [/D] [/K] [/L] | /O | /X
+
+        Or, to track an operation already in progress on a volume:
+        defrag <volume> /T
+
+Parameters:
+
+        Value   Description
+
+        /A      Perform analysis on the specified volumes.
+
+        /C      Perform the operation on all volumes.
+
+        /D      Perform traditional defrag (this is the default).
+
+7 ipconfig
+hasil -> C:\Users\mPadri>ipconfig
+
+Windows IP Configuration
+
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : i-tech.ac.id
+
+Wireless LAN adapter Local Area Connection* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Link-local IPv6 Address . . . . . : fe80::6498:d8bc:81ee:ccd7%4
+   IPv4 Address. . . . . . . . . . . : 192.168.43.13
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.43.1
+
+8 hostname
+hasil -> C:\Users\mPadri>hostname
+DESKTOP-UKQBMH9
+
+9 color E
+hasil -> C:\Users\mPadri>color E
+ tulisan warna kuning
+C:\Users\mPadri>
+
+10 echo "Hello world"
+hasil -> C:\Users\mPadri>echo "Hello world"
+"Hello world"
+
+11 ping
+hasil -> C:\Users\mPadri>ping
+
+Usage: ping [-t] [-a] [-n count] [-l size] [-f] [-i TTL] [-v TOS]
+            [-r count] [-s count] [[-j host-list] | [-k host-list]]
+            [-w timeout] [-R] [-S srcaddr] [-c compartment] [-p]
+            [-4] [-6] target_name
+
+Options:
+    -t             Ping the specified host until stopped.
+                   To see statistics and continue - type Control-Break;
+                   To stop - type Control-C.
+    -a             Resolve addresses to hostnames.
+    -n count       Number of echo requests to send.
+    -l size        Send buffer size.
+    -f             Set Don't Fragment flag in packet (IPv4-only).
+    -i TTL         Time To Live.
+    -v TOS         Type Of Service (IPv4-only. This setting has been deprecated
+                   and has no effect on the type of service field in the IP
+                   Header).
+    -r count       Record route for count hops (IPv4-only).
+    -s count       Timestamp for count hops (IPv4-only).
+    -j host-list   Loose source route along host-list (IPv4-only).
+    -k host-list   Strict source route along host-list (IPv4-only).
+    -w timeout     Timeout in milliseconds to wait for each reply.
+    -R             Use routing header to test reverse route also (IPv6-only).
+                   Per RFC 5095 the use of this routing header has been
+                   deprecated. Some systems may drop echo requests if
+                   this header is used
+
+12 ping 8.8.8.8
+hasil -> C:\Users\mPadri>ping 8.8.8.8
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=88ms TTL=53
+Reply from 8.8.8.8: bytes=32 time=57ms TTL=53
+Reply from 8.8.8.8: bytes=32 time=60ms TTL=53
+Reply from 8.8.8.8: bytes=32 time=69ms TTL=53
+
+Ping statistics for 8.8.8.8:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 57ms, Maximum = 88ms, Average = 68ms
+
+13 ipconfig/displaydns
+hasil -> C:\Users\mPadri>ipconfig/displaydns
+
+Windows IP Configuration
+
+    www.googletagmanager.com
+    ----------------------------------------
+    Record Name . . . . . : www.googletagmanager.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 28
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : www-googletagmanager.l.google.com
+
+
+    Record Name . . . . . : www-googletagmanager.l.google.com
+    Record Type . . . . . : 1
+    Time To Live  . . . . : 28
+    Data Length . . . . . : 4
+    Section . . . . . . . : Answer
+    A (Host) Record . . . : 74.125.24.97
+
+
+    www.guru99.com
+    ----------------------------------------
+    Record Name . . . . . : www.guru99.com
+    Record Type . . . . . : 5
+    Time To Live  . . . . : 13845
+    Data Length . . . . . : 8
+    Section . . . . . . . : Answer
+    CNAME Record  . . . . : guru99.com
+
+14 netstat
+hasil -> C:\Users\mPadri>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57721  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57723  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57724  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57725  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57726  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57727  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57728  TIME_WAIT
+  TCP    127.0.0.1:9614         DESKTOP-UKQBMH9:57729  TIME_WAIT
+
+15 route
+hasil -> C:\Users\mPadri>route
+
+Manipulates network routing tables.
+
+ROUTE [-f] [-p] [-4|-6] command [destination]
+                  [MASK netmask]  [gateway] [METRIC metric]  [IF interface]
+
+  -f           Clears the routing tables of all gateway entries.  If this is
+               used in conjunction with one of the commands, the tables are
+               cleared prior to running the command.
+
+  -p           When used with the ADD command, makes a route persistent across
+               boots of the system. By default, routes are not preserved
+               when the system is restarted. Ignored for all other commands,
+               which always affect the appropriate persistent routes.
+
+  -4           Force using IPv4.
+
+  -6           Force using IPv6.
+
+16 tracert
+hasil -> C:\Users\mPadri>tracert
+
+Usage: tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout]
+               [-R] [-S srcaddr] [-4] [-6] target_name
+
+Options:
+    -d                 Do not resolve addresses to hostnames.
+    -h maximum_hops    Maximum number of hops to search for target.
+    -j host-list       Loose source route along host-list (IPv4-only).
+    -w timeout         Wait timeout milliseconds for each reply.
+    -R                 Trace round-trip path (IPv6-only).
+    -S srcaddr         Source address to use (IPv6-only).
+    -4                 Force using IPv4.
+    -6                 Force using IPv6.
+
+17 nslookup
+hasil -> C:\Users\mPadri>nslookup
+Default Server:  UnKnown
+Address:  192.168.43.1
+
+18 move
+hasil -> E:\>move coba.txt E:\kampus\
+        1 file(s) moved.
+19 copy
+hasil -> E:\Kampus>copy coba.txt E:\
+        1 file(s) copied.
+
+20 del
+hasil -> E:\Kampus>dir
+ Volume in drive E has no label.
+ Volume Serial Number is E20C-4028
+
+ Directory of E:\Kampus
+
+26/12/2019  21.33    <DIR>          .
+26/12/2019  21.33    <DIR>          ..
+26/12/2019  21.26                 0 coba.txt
+30/11/2019  13.05    <DIR>          Metnum
+21/09/2019  09.44    <DIR>          Platform-Kusus
+               1 File(s)              0 bytes
+               4 Dir(s)  121.241.960.448 bytes free
+
+E:\Kampus>del coba.txt
+
+E:\Kampus>dir
+ Volume in drive E has no label.
+ Volume Serial Number is E20C-4028
+
+ Directory of E:\Kampus
+
+26/12/2019  21.34    <DIR>          .
+26/12/2019  21.34    <DIR>          ..
+30/11/2019  13.05    <DIR>          Metnum
+21/09/2019  09.44    <DIR>          Platform-Kusus
+               0 File(s)              0 bytes
+               4 Dir(s)  121.241.960.448 bytes free
